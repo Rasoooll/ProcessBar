@@ -1,3 +1,7 @@
 node_modules/
 
+# Markdownlint config files
 .markdownlint.json
+.markdownlint.yml
+.markdownlint.yaml
+.markdownlintrc
