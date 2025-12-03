@@ -1,0 +1,23 @@
+{
+  "name": "console_processbar",
+  "version": "1.0.11",
+  "description": "a simple console process bar",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "Rasool keshtkar",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.9.2"
+  }
+}
